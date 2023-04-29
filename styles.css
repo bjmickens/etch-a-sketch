@@ -10,11 +10,11 @@
  margin: 0; 
  padding: 0;
  flex: 1 1 auto;
- 
 }
 
 
 .container {
+  position: relative;
   border: 5px solid black;
   width: 600px;
   height: 600px;
@@ -22,6 +22,8 @@
   padding: 0; 
   display: flex;
   flex-wrap: wrap;
- 
-  
+}
+
+#clearButton {
+  margin-bottom: 20px;
 }
