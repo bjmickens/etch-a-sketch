@@ -3,11 +3,14 @@
 }
 .div {
  display: inline-block;
- background-color: red;
- box-sizing: content-box;
+ background-color: rgb(220, 118, 118);
+ box-sizing: border-box;
  border: none;
- margin: 0px; 
- padding: 0px;
+ outline: 1px solid black;
+ margin: 0; 
+ padding: 0;
+ flex: 1 1 auto;
+ 
 }
 
 
@@ -16,7 +19,9 @@
   width: 600px;
   height: 600px;
   margin: 0 auto; 
-  padding: 0px; 
-  background-color: black;
-
+  padding: 0; 
+  display: flex;
+  flex-wrap: wrap;
+ 
+  
 }
