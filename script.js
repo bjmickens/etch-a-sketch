@@ -14,14 +14,15 @@ function addDiv(x) {
 };
 
 //remove the grid
-function removeGrid(){
-  document.querySelector('.div').remove();
-};
+// function removeGrid(){
+  
 
-//prompt user for number of boxes per side of grid
+
+//prompt user for number of boxes per side of new grid and remove the previous
 function newGrid(){
   let y = prompt("How many boxes per side?");
-  removeGrid();
+  let newDivs = document.querySelectorAll('.div');
+  newDivs.forEach((div) => { div.remove()});
   addDiv(y);
 };
 

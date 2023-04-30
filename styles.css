@@ -1,12 +1,18 @@
 .header {
   text-align: center;
+  color: #454545;
 }
+
+body {
+  background-color: #FFA559;
+}
+
 .div {
  display: inline-block;
- background-color: rgb(220, 118, 118);
+ background-color: #FF6000;
  box-sizing: border-box;
  border: none;
- outline: 1px solid black;
+ outline: 1px solid #454545;
  margin: 0; 
  padding: 0;
  flex: 1 1 auto;
